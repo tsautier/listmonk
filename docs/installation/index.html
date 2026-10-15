@@ -1738,9 +1738,9 @@ If you would like to remove those and mount a config.toml instead:</p>
 <h2 id="compiling-from-source">Compiling from source<a class="headerlink" href="#compiling-from-source" title="Permanent link">&para;</a></h2>
 <p>To compile the latest unreleased version (<code>master</code> branch):</p>
 <ol>
-<li>Make sure <code>go</code>, <code>nodejs</code>, and <code>yarn</code> are installed on your system.</li>
+<li>Make sure <code>go</code> and <code>bun</code> are installed on your system.</li>
 <li><code>git clone git@github.com:knadh/listmonk.git</code></li>
-<li><code>cd listmonk &amp;&amp; make dist</code>. This will generate the <code>listmonk</code> binary.</li>
+<li><code>cd listmonk &amp;&amp; make dist</code>. This will build the SSR admin frontend and generate the <code>listmonk</code> binary.</li>
 </ol>
 <h2 id="helm-chart-for-kubernetes">Helm chart for Kubernetes<a class="headerlink" href="#helm-chart-for-kubernetes" title="Permanent link">&para;</a></h2>
 <p>A Helm chart for installing listmonk on a Kubernetes cluster is maintained by the community in the <a href="https://github.com/helmforgedev/charts/tree/main/charts/listmonk">HelmForge charts repository</a>.</p>
@@ -1769,7 +1769,9 @@ If you would like to remove those and mount a config.toml instead:</p>
 <br />
 <a href="https://www.cloudron.io/store/app.listmonk.cloudronapp.html"><img src="https://cloudron.io/img/button.svg" alt="Install on Cloudron" style="max-width: 150px;"/></a>
 <br />
-<a href="https://console.hostim.dev/dashboard?preview=1&modal=1&template=listmonk"><img src="https://hostim.dev/img/deploy-button.svg" alt="Deploy on Hostim" style="max-width: 150px;"/></a></p>
+<a href="https://console.hostim.dev/dashboard?preview=1&modal=1&template=listmonk"><img src="https://hostim.dev/img/deploy-button.svg" alt="Deploy on Hostim" style="max-width: 150px;"/></a>
+<br />
+<a href="https://pethost.dev/templates/listmonk/"><img src="https://pethost.dev/button.svg" alt="Deploy on Pethost" style="max-width: 150px;"/></a></p>
 <h2 id="tutorials">Tutorials<a class="headerlink" href="#tutorials" title="Permanent link">&para;</a></h2>
 <ul>
 <li><a href="https://forwardemail.net/en/guides/newsletter-with-listmonk">Listmonk with Forward Email for Secure Newsletter Delivery</a></li>
